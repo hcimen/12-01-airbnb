@@ -39,19 +39,19 @@
    <div class="flex items-center justify-items-center mx-auto bg-white w-2/3 h-16 text-black rounded-full">
       <div class="w-4/12 mx-6 border-r-2"> 
         <p> <b> Location </b> </p>
-        <p> Where are you going? </p> 
+        <input class="placeholder-opacity-400" type="text" name="location" id="location" placeholder="Where are you going?"> </input>
       </div>  
       <div class="w-3/12 mr-6 border-r-2"> 
         <p> <b> Check in </b> </p> 
-        <p> Add dates </p> 
+       <input class="placeholder-opacity-400" type="text" name="checkin" id="checkin" placeholder="Add time" onfocus="this.type='date'">
       </div>
       <div class="w-3/12 mr-6 border-r-2"> 
         <p> <b> Check out </b> </p> 
-        <p> Add dates </p> 
+        <input class="placeholder-opacity-400" type="text" name="checkout" id="checkout" placeholder="Add time" onfocus="this.type='date'">
       </div>
       <div class="w-2/12"> 
         <p> <b> Guests </b> </p> 
-        <p> Add Guests </p> 
+        <input class="placeholder-opacity-400 w-24" type="text" name="guests" id="guests" placeholder="Add guests" min="1" max="8" onfocus="this.type='number'">
       </div>
       <div class="w-1/12"> 
         <img class="w-14 h-12" src="search-red.png" alt="Search Icon">
